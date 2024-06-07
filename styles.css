@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .image-container {
+  border-radius: 10px;
+}
+.container .image-container img {
+  border-radius: 10px;
+  width: 400px;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.container .quote-container p {
+  text-align: center;
+  font-size: 2rem;
+  margin: 1rem;
+  padding: 0.5rem;
+}
+.container .quote-btn-container .generate-quote-btn {
+  margin: 1rem;
+  padding: 0.5rem;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.container .quote-btn-container .generate-quote-btn:hover {
+  font-size: 1.2rem;
+  transition: all 0.3s ease-in-out;
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .image-container {
+        //border: 2px solid rgb(224, 52, 52);
+        border-radius: 10px;
+        img {
+            //padding: 1rem;
+            border-radius: 10px;
+            width: 400px;
+            height: 400px;
+            object-fit: cover;
+        }
+    }
+
+    .quote-container {
+        p {
+            text-align: center;
+            font-size: 2rem;
+            margin: 1rem;
+            padding: 0.5rem;
+        }
+    }
+
+    .quote-btn-container {
+        .generate-quote-btn {
+            margin: 1rem;
+            padding: 0.5rem;
+            border: 0;
+            border-radius: 10px;
+            cursor: pointer;
+            &:hover {
+                font-size: 1.2rem;
+                transition: all 0.3s ease-in-out;
+            }
+        }
+    }
+}
